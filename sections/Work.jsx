@@ -1,111 +1,15 @@
 import {
-    chakra,
-    Box,
-    Flex,
-    useColorModeValue,
-    Icon,
-    Stack,
-    Link,
-    Text,
-    Tag,
-    Container,
-    SimpleGrid,
-} from '@chakra-ui/react';
-import { FcBriefcase } from 'react-icons/fc';
-import { SectionHeading } from '../components';
-import moment from 'moment';
+  chakra,
+  Box,
+  Flex,
+  useColorModeValue,
+  Container,
+  SimpleGrid,
+} from "@chakra-ui/react";
+import { FcBriefcase } from "react-icons/fc";
+import { SectionHeading, WorkExpDetails } from "../components";
 
 export default function Work({ works }) {
-  const WorkDetails = (props) => {
-    const start = moment(props.startDate).format("MMM YYYY");
-    const end = props.endDate
-      ? moment(props.endDate).format("MMM YYYY")
-      : "Present";
-
-    const date = `${start} - ${end}`;
-
-    return (
-      <Flex
-        flexDirection={{
-          base: "column",
-          md: "row",
-        }}
-        fontFamily="Roboto"
-      >
-        <Flex>
-          <Flex
-            alignItems="center"
-            justifyContent="center"
-            h={12}
-            w={12}
-            rounded="md"
-            bg={useColorModeValue("brand.500")}
-            color="white"
-          >
-            <Icon
-              boxSize={6}
-              fill="none"
-              viewBox="0 0 24 24"
-              stroke="currentColor"
-              aria-hidden="true"
-            >
-              {props.icon}
-            </Icon>
-          </Flex>
-        </Flex>
-        <Box ml={4}>
-          <Flex justify="space-between" mb={3}>
-            <chakra.dt fontSize="lg" fontWeight="medium" lineHeight="6">
-              <Link
-                href={props.link}
-                target="_blank"
-                rel="noopener noreferrer"
-                color="blue.400"
-              >
-                <a>{props.title}</a>
-              </Link>
-            </chakra.dt>
-
-            <Tag colorScheme="green" textTransform="capitalize">
-              {props.types.join(" / ")}
-            </Tag>
-          </Flex>
-          <Text
-            fontSize="sm"
-            fontFamily="Open sans"
-            color={useColorModeValue("gray.500")}
-            lineHeight="150%"
-          >
-            {date}
-          </Text>
-          <chakra.dd
-            mt={2}
-            color={useColorModeValue("gray.500", "gray.400")}
-            lineHeight="1.4"
-            fontFamily="Roboto"
-            fontSize="sm"
-          >
-            {props.children}
-          </chakra.dd>
-
-          <Stack mt={2} isInline wrap="wrap" align="center" spacing={4}>
-            {props?.skills?.map((skill) => (
-              <Tag
-                my={2}
-                key={skill}
-                variant="solid"
-                colorScheme={"orange"}
-                size="sm"
-              >
-                {skill}
-              </Tag>
-            ))}
-          </Stack>
-        </Box>
-      </Flex>
-    );
-  };
-
   return (
     <Container maxW="7xl" my={8} as="section">
       <Flex justifyContent="center" alignItems="center">
@@ -134,7 +38,7 @@ export default function Work({ works }) {
                 gridRowGap={{ md: 10 }}
               >
                 {works.map((work) => (
-                  <WorkDetails
+                  <WorkExpDetails
                     title={work.title}
                     link={work.url}
                     icon={<FcBriefcase size="1.5rem" />}
@@ -145,7 +49,7 @@ export default function Work({ works }) {
                     skills={work.skills}
                   >
                     {work.description}
-                  </WorkDetails>
+                  </WorkExpDetails>
                 ))}
               </SimpleGrid>
             </Box>

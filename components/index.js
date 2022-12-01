@@ -14,3 +14,4 @@ export { default as Fallback } from "./Fallback";
 export { default as CustomSelect } from "./CustomSelect";
 export { default as SelectIcon } from "./SelectIcon";
 export { default as ClientReview } from './ClientReview'
+export { default as WorkExpDetails } from "./WorkExpDetails";

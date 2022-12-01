@@ -1,6 +1,5 @@
 export const works = [
   {
-    createdAt: "2021-12-05T05:06:11.58986+00:00",
     description:
       "Joined the team as a Backend Developer. I was in charge of Enriching their REST API,\nadding new features and improving existing ones. Also communicating with the Frontend team to make sure the UI is up to date. I was also responsible for connecting Appollo API with Big E-commerce Platforms like Shopify and Wix.",
     id: "ckwss7z5k13vz0c805cx16rz1",
@@ -16,7 +15,6 @@ export const works = [
     },
   },
   {
-    createdAt: "2021-12-05T05:09:38.025806+00:00",
     description:
       "Joined the Amazing developer team as a Lead Frontend Developer. \nWorked on making Version 3 of our amazing Dropshipper Software.\nCompletely re-worked UI, Interactivity, UX.\nWorked with Cutting Edge software, Making a Faster and Smoother experience for everyone.",
     id: "ckwsscevk140w0c80tqebmd8w",
@@ -41,7 +39,6 @@ export const works = [
     },
   },
   {
-    createdAt: "2021-12-05T05:11:07.390204+00:00",
     description:
       "Joined the team as a Full Stack. I was in charge of Both Frontend and Backend.\nPrimarily worked on the Frontend, adding new features and improving existing ones.\nThen I Re-created their Entire PHP backend into Node.js REST API, Improving the performance and scalability.",
     id: "ckwssebjs14370c39pqfgnmau",
@@ -57,7 +54,6 @@ export const works = [
     },
   },
   {
-    createdAt: "2021-12-05T05:13:39.167826+00:00",
     description:
       "Joined Fiverr as a Freelance Developer in 2019.\nworking as a React Developer for various clients throughout the world.\nI am a Level 1 Seller at Fiverr. Helped a lot of clients with their dream projects and helped them to achieve their goals.",
     id: "ckwsshku016eb0a46ukl0r7f9",
