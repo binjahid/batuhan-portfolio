@@ -25,7 +25,7 @@ const WorkExpDetails = (props) => {
         base: "column",
         md: "row",
       }}
-      fontFamily="Roboto"
+      fontFamily="SuisseIntl"
     >
       <Flex>
         <Flex
@@ -88,7 +88,7 @@ const WorkExpDetails = (props) => {
           mt={2}
           color={useColorModeValue("gray.500", "gray.400")}
           lineHeight="1.4"
-          fontFamily="Roboto"
+          fontFamily="SuisseIntl"
           fontSize="sm"
         >
           {props.children}

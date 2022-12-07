@@ -15,7 +15,7 @@ const ProjectsHero = () => {
           lineHeight="none"
           letterSpacing={{ base: "normal", md: "tight" }}
           color={useColorModeValue("gray.900", "gray.100")}
-          fontFamily="Poppins"
+          fontFamily="SuisseIntl"
         >
           All of my{" "}
           <Text

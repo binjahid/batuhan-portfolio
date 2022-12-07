@@ -40,19 +40,19 @@ function MyApp({ Component, pageProps }) {
           />
         </Head>
         <DefaultSeo
-          title="Batuhan Falk"
+          title="Batuhan Faik"
           description=""
           openGraph={{
             type: "website",
             locale: "en_US",
             url: "",
-            site_name: "Batuhan Falk",
+            site_name: "Batuhan Faik",
             images: [
               {
                 url: "",
                 width: 1200,
                 height: 630,
-                alt: "Batuhan Falk",
+                alt: "Batuhan Faik",
               },
             ],
           }}

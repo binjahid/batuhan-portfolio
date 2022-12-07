@@ -28,7 +28,7 @@ export default function SkillsSection() {
         fontSize="5xl"
         fontWeight="bold"
         color={useColorModeValue("black", "white")}
-        fontFamily="Poppins"
+        fontFamily="SuisseIntl"
         mb="20"
         bgGradient="linear(to-r, green.400, blue.500)"
         bgClip="text"

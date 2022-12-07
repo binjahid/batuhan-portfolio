@@ -61,7 +61,7 @@ export default function ProjectCardSm({ project , isMiddleCard }) {
               <Text>
                 <Tag
                   textTransform={"uppercase"}
-                  fontFamily="Roboto"
+                  fontFamily="SuisseIntl"
                   fontSize={"sm"}
                   colorScheme="green"
                 >
@@ -72,7 +72,7 @@ export default function ProjectCardSm({ project , isMiddleCard }) {
               <Text>
                 <Tag
                   textTransform={"uppercase"}
-                  fontFamily="Roboto"
+                  fontFamily="SuisseIntl"
                   fontSize={"sm"}
                   colorScheme="blue"
                 >
@@ -84,7 +84,7 @@ export default function ProjectCardSm({ project , isMiddleCard }) {
               <ChakraLink
                 color={useColorModeValue("gray.700", "white")}
                 fontSize={"2xl"}
-                fontFamily={"Roboto"}
+                fontFamily={"SuisseIntl"}
               >
                 {project.title}
               </ChakraLink>

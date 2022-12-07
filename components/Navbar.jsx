@@ -1,7 +1,6 @@
 import Link from 'next/link';
 import { useRouter } from 'next/router';
-import { useEffect, useRef, useState } from 'react';
-import Image from "next/image";
+import { useEffect, useRef, useState } from "react";
 
 import {
   Box,
@@ -15,16 +14,15 @@ import {
   Button,
   useColorMode,
   Fade,
+  Text,
 } from "@chakra-ui/react";
 import { useViewportScroll } from "framer-motion";
 
 import { AiOutlineMenu } from "react-icons/ai";
 import { FaMoon, FaSun } from "react-icons/fa";
 import { FcDocument } from "react-icons/fc";
-import { SiRakuten } from "react-icons/si";
 
 import { navLinks } from "../assets/data/navlinks";
-import logo from "../assets/images/logo.png";
 
 export default function Navbar() {
   const { toggleColorMode: toggleMode } = useColorMode();
@@ -123,9 +121,24 @@ export default function Navbar() {
         >
           <Flex align="flex-start">
             <Link href="/" passHref scroll={false}>
-              <Box width={"1.7rem"} cursor={"pointer"}>
-                <Image src={logo} alt="logo" />
-              </Box>
+              <Text
+                fontFamily="SuisseIntl"
+                fontWeight="bold"
+                fontSize={"2xl"}
+                display={"flex"}
+                alignItems={"center"}
+                letterSpacing={"0.2rem"}
+                cursor="pointer"
+                transitionDuration={"0.5s"}
+                _hover={{
+                  letterSpacing: "0.1rem",
+                }}
+              >
+                <Text color="teal.400" pr={"0.3rem"}>
+                  Batuhan{" "}
+                </Text>
+                .
+              </Text>
             </Link>
           </Flex>
           <Flex justify="flex-end" align="center" color="gray.400">

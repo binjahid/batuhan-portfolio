@@ -1,17 +1,14 @@
 import {
-    Box,
-    chakra,
-    Container,
-    Stack,
-    Text,
-    useColorModeValue,
-    VisuallyHidden,
-} from '@chakra-ui/react';
-import Image from "next/image";
+  Box,
+  chakra,
+  Container,
+  Stack,
+  Text,
+  useColorModeValue,
+  VisuallyHidden,
+} from "@chakra-ui/react";
 import Link from "next/link";
 import { socialLinks } from "../assets/data/footerSocial";
-
-import logo from "../assets/images/logo.png";
 
 const SocialButton = ({ children, label, href, color }) => {
   return (
@@ -56,13 +53,30 @@ export default function Footer() {
         justify={{ base: "center", md: "space-between" }}
         align={{ base: "center", md: "center" }}
       >
-        <Link scroll={false} href="/">
-          <Box width={"1.7rem"} cursor={"pointer"}>
-            <Image src={logo} alt="logo" />
-          </Box>
-        </Link>
+        <Box width={"8rem"}>
+          <Link scroll={false} href="/">
+            <Text
+              fontFamily="SuisseIntl"
+              fontWeight="bold"
+              fontSize={"2xl"}
+              display={"flex"}
+              alignItems={"center"}
+              letterSpacing={"0.2rem"}
+              cursor="pointer"
+              transitionDuration={"0.5s"}
+              _hover={{
+                letterSpacing: "0.1rem",
+              }}
+            >
+              <Text color="teal.400" pr={"0.3rem"}>
+                Batuhan{" "}
+              </Text>
+              .
+            </Text>
+          </Link>
+        </Box>
         <Text fontSize="sm" fontFamily="'Open Sans', sans-serif">
-          &copy; {new Date().getFullYear()} &nbsp; Batuhan Falk
+          &copy; {new Date().getFullYear()} &nbsp; Batuhan Faik
         </Text>
         <Stack direction={"row"} spacing={6}>
           {socialLinks.map((item) => (

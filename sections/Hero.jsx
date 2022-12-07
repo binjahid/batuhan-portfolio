@@ -37,7 +37,7 @@ export default function Hero() {
               lg: "8xl",
             }}
             lineHeight={"120%"}
-            fontFamily="Caveat"
+            fontFamily="SuisseIntl"
           >
             <motion.span
               initial={{ opacity: 0 }}
@@ -53,7 +53,7 @@ export default function Hero() {
                 animate={{ opacity: 1 }}
                 transition={{ duration: 0.5, delay: 1 }}
               >
-                I’m Batuhan Falk
+                I’m Batuhan Faik
               </motion.span>
             </Text>
           </Heading>

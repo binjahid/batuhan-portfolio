@@ -1,8 +1,31 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&family=Satisfy&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&display=swap'); */
 
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+@font-face {
+    font-family: "SuisseIntl";
+    src: url(../assets/fonts/SuisseIntl-Medium.ttf);
+}
+
+@font-face {
+    font-family: "SuisseIntl";
+    src: url(../assets/fonts/SuisseIntl-Bold.ttf);
+}
+
+@font-face {
+    font-family: "SuisseIntl";
+    src: url(../assets/fonts/SuisseIntl-Black.ttf);
+}
+
+@font-face {
+    font-family: "SuisseIntl";
+    src: url(../assets/fonts/SuisseIntl-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: "SuisseIntl";
+    src: url(../assets/fonts/SuisseIntl-Medium.ttf);
+}
 
 :root {
     --section-rotate: 9vh;
@@ -13,7 +36,7 @@ body {
     padding: 0;
     margin: 0;
     /* font-family: 'Open Sans', sans-serif; */
-    font-family: 'Roboto', sans-serif;
+    font-family: 'SuisseIntl', sans-serif;
     overflow-x: hidden;
 }
 

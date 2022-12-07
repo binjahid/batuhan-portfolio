@@ -10,12 +10,12 @@ const Layout = ({ children }) => {
     return (
       <>
         <Head>
-          <title>Batuhan Falk</title>
+          <title>Batuhan Faik</title>
           <meta
             name="description"
-            content="Personal Portfolio of Batuhan Falk"
+            content="Personal Portfolio of Batuhan Faik"
           />
-          <link rel="icon" href="/favicon.ico" />
+          <link rel="icon" href="/favicon.png" />
         </Head>
         <Box height={"100%"}>
           {router.pathname === "/" ? (
