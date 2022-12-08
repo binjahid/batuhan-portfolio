@@ -83,106 +83,106 @@ const MessageForm = () => {
     };
 
     return (
-        <Box onSubmit={handleSubmit} as='form' mt={10}>
-            <Stack spacing={4}>
-                <FormControl isRequired>
-                    <FormLabel color='gray.900'>Your Name</FormLabel>
-                    <InputGroup>
-                        <InputLeftElement pointerEvents='none'>
-                            <AiOutlineUser color='black' size='20px' />
-                        </InputLeftElement>
-                        <Input
-                            placeholder='Your Name'
-                            bg={'gray.100'}
-                            border={0}
-                            color={'gray.500'}
-                            _placeholder={{
-                                color: 'gray.500',
-                            }}
-                            name='name'
-                            value={name}
-                            onChange={e => setName(e.target.value)}
-                        />
-                    </InputGroup>
-                </FormControl>
-                <FormControl isRequired>
-                    <FormLabel color='gray.900'>Email</FormLabel>
-                    <InputGroup>
-                        <InputLeftElement pointerEvents='none'>
-                            <MdEmail color='black' size='20px' />
-                        </InputLeftElement>
-                        <Input
-                            placeholder='firstname@lastname.io'
-                            bg={'gray.100'}
-                            border={0}
-                            color={'gray.500'}
-                            _placeholder={{
-                                color: 'gray.500',
-                            }}
-                            type='email'
-                            name='email'
-                            value={email}
-                            onChange={e => setEmail(e.target.value)}
-                        />
-                    </InputGroup>
-                </FormControl>
-                <FormControl>
-                    <FormLabel color='gray.900'>Phone</FormLabel>
-                    <InputGroup>
-                        <InputLeftElement pointerEvents='none'>
-                            <MdPhone color='black' size='20px' />
-                        </InputLeftElement>
-                        <Input
-                            placeholder='phone number'
-                            bg={'gray.100'}
-                            border={0}
-                            color={'gray.500'}
-                            _placeholder={{
-                                color: 'gray.500',
-                            }}
-                            name='phone'
-                            value={phone}
-                            onChange={e => setPhone(e.target.value)}
-                        />
-                    </InputGroup>
-                </FormControl>
+      <Box onSubmit={handleSubmit} as="form" mt={10}>
+        <Stack spacing={4}>
+          <FormControl isRequired>
+            <FormLabel color="gray.900">Your Name</FormLabel>
+            <InputGroup>
+              <InputLeftElement pointerEvents="none">
+                <AiOutlineUser color="black" size="20px" />
+              </InputLeftElement>
+              <Input
+                placeholder="Your Name"
+                bg={"gray.100"}
+                border={0}
+                color={"gray.500"}
+                _placeholder={{
+                  color: "gray.500",
+                }}
+                name="name"
+                value={name}
+                onChange={(e) => setName(e.target.value)}
+              />
+            </InputGroup>
+          </FormControl>
+          <FormControl isRequired>
+            <FormLabel color="gray.900">Email</FormLabel>
+            <InputGroup>
+              <InputLeftElement pointerEvents="none">
+                <MdEmail color="black" size="20px" />
+              </InputLeftElement>
+              <Input
+                placeholder="firstname@lastname.io"
+                bg={"gray.100"}
+                border={0}
+                color={"gray.500"}
+                _placeholder={{
+                  color: "gray.500",
+                }}
+                type="email"
+                name="email"
+                value={email}
+                onChange={(e) => setEmail(e.target.value)}
+              />
+            </InputGroup>
+          </FormControl>
+          <FormControl>
+            <FormLabel color="gray.900">Phone</FormLabel>
+            <InputGroup>
+              <InputLeftElement pointerEvents="none">
+                <MdPhone color="black" size="20px" />
+              </InputLeftElement>
+              <Input
+                placeholder="phone number"
+                bg={"gray.100"}
+                border={0}
+                color={"gray.500"}
+                _placeholder={{
+                  color: "gray.500",
+                }}
+                name="phone"
+                value={phone}
+                onChange={(e) => setPhone(e.target.value)}
+              />
+            </InputGroup>
+          </FormControl>
 
-                <FormControl isRequired>
-                    <FormLabel color='gray.900'>Message</FormLabel>
-                    <Textarea
-                        placeholder='Your Message...'
-                        bg={'gray.100'}
-                        border={0}
-                        color={'gray.500'}
-                        _placeholder={{
-                            color: 'gray.500',
-                        }}
-                        name='message'
-                        value={message}
-                        onChange={e => setMessage(e.target.value)}
-                    />
-                </FormControl>
-            </Stack>
-            <Button
-                fontFamily={'Open Sans'}
-                mt={8}
-                w={'full'}
-                bgGradient='linear(to-r, red.400, pink.400)'
-                color={'white'}
-                _hover={{
-                    bgGradient: 'linear(to-r, red.400, pink.400)',
-                    boxShadow: 'xl',
-                }}
-                _active={{
-                    bgGradient: 'linear(to-r, red.400, pink.400)',
-                    boxShadow: 'xl',
-                }}
-                type='submit'
-                isLoading={isSubmitting}
-            >
-                Submit
-            </Button>
-        </Box>
+          <FormControl isRequired>
+            <FormLabel color="gray.900">Message</FormLabel>
+            <Textarea
+              placeholder="Your Message..."
+              bg={"gray.100"}
+              border={0}
+              color={"gray.500"}
+              _placeholder={{
+                color: "gray.500",
+              }}
+              name="message"
+              value={message}
+              onChange={(e) => setMessage(e.target.value)}
+            />
+          </FormControl>
+        </Stack>
+        <Button
+          fontFamily={"SuisseIntl"}
+          mt={8}
+          w={"full"}
+          bgGradient="linear(to-r, red.400, pink.400)"
+          color={"white"}
+          _hover={{
+            bgGradient: "linear(to-r, red.400, pink.400)",
+            boxShadow: "xl",
+          }}
+          _active={{
+            bgGradient: "linear(to-r, red.400, pink.400)",
+            boxShadow: "xl",
+          }}
+          type="submit"
+          isLoading={isSubmitting}
+        >
+          Submit
+        </Button>
+      </Box>
     );
 };
 

@@ -27,21 +27,25 @@ const ScrollProgress = () => {
       <chakra.svg
         aria-label="scroll progress"
         position="fixed"
-        top={{
-          base: "10px",
-          lg: "20px",
-        }}
+        // top={{
+        //   base: "10px",
+        //   lg: "20px",
+        // }}
         bottom={{
-          base: "10px",
-          lg: "20px",
+          base: "7px",
+          lg: "15px",
+        }}
+        right={{
+          base: "7px",
+          lg: "15px",
         }}
         width={{
-          base: "70px",
-          lg: "100px",
+          base: "30px",
+          lg: "50px",
         }}
         height={{
-          base: "70px",
-          lg: "100px",
+          base: "30px",
+          lg: "50px",
         }}
         className="progress-icon"
         viewBox="0 0 60 60"

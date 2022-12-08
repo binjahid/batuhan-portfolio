@@ -69,7 +69,7 @@ const WorkExpDetails = (props) => {
         </Flex>
         <Text
           fontSize="sm"
-          fontFamily="Open sans"
+          fontFamily="SuisseIntl"
           color={useColorModeValue("gray.500")}
           lineHeight="100%"
         >
@@ -78,7 +78,7 @@ const WorkExpDetails = (props) => {
         <Text
           pt={"0.5rem"}
           fontSize="sm"
-          fontFamily="Open sans"
+          fontFamily="SuisseIntl"
           color={useColorModeValue("gray.500")}
           lineHeight="100%"
         >

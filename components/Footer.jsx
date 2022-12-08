@@ -61,11 +61,11 @@ export default function Footer() {
               fontSize={"2xl"}
               display={"flex"}
               alignItems={"center"}
-              letterSpacing={"0.2rem"}
+              letterSpacing={"0.1rem"}
               cursor="pointer"
               transitionDuration={"0.5s"}
               _hover={{
-                letterSpacing: "0.1rem",
+                letterSpacing: "0.3rem",
               }}
             >
               <Text color="teal.400" pr={"0.3rem"}>
@@ -75,7 +75,7 @@ export default function Footer() {
             </Text>
           </Link>
         </Box>
-        <Text fontSize="sm" fontFamily="'Open Sans', sans-serif">
+        <Text fontSize="sm" fontFamily="SuisseIntl">
           &copy; {new Date().getFullYear()} &nbsp; Batuhan Faik
         </Text>
         <Stack direction={"row"} spacing={6}>

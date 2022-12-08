@@ -7,9 +7,6 @@ import '../styles/globals.css'
 import { DefaultSeo } from 'next-seo';
 import { theme } from '../styles/theme';
 
-import "@fontsource/raleway";
-import "@fontsource/inter"
-
 
 function MyApp({ Component, pageProps }) {
     const router = useRouter();

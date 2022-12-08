@@ -78,11 +78,7 @@ export default function Navbar() {
             key={item.id}
             onClick={mobileNav.onClose}
           >
-            <Link
-              scroll={false}
-              fontFamily="'Open Sans', sans-serif"
-              href={item.url}
-            >
+            <Link scroll={false} fontFamily="SuisseIntl" href={item.url}>
               {item.name}
             </Link>
           </Button>
@@ -127,11 +123,11 @@ export default function Navbar() {
                 fontSize={"2xl"}
                 display={"flex"}
                 alignItems={"center"}
-                letterSpacing={"0.2rem"}
+                letterSpacing={"0.1rem"}
                 cursor="pointer"
                 transitionDuration={"0.5s"}
                 _hover={{
-                  letterSpacing: "0.1rem",
+                  letterSpacing: "0.3rem",
                 }}
               >
                 <Text color="teal.400" pr={"0.3rem"}>
