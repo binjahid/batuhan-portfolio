@@ -12,8 +12,7 @@ import {
 } from '@chakra-ui/react';
 import { motion } from 'framer-motion';
 
-import Link from 'next/link';
-import { Footer } from "../components";
+import Link from "next/link";
 
 export default function Hero() {
   return (
@@ -79,7 +78,10 @@ export default function Hero() {
             </motion.span>
           </Text>
           <Stack
-            direction={"column"}
+            direction={{
+              base: "column",
+              md: "row",
+            }}
             spacing={3}
             align={"center"}
             alignSelf={"center"}
@@ -90,19 +92,38 @@ export default function Hero() {
               bg={"teal.400"}
               color={"white"}
               rounded={"full"}
+              border={"1px solid"}
+              borderColor={"teal.400"}
               px={6}
               size="lg"
-              _hover={{ bg: "teal.500", animationDuration: "0.5s" }}
+              transition={"all .4s ease"}
+              _hover={{ bg: "transparent", color: "teal.400" }}
             >
-              <Link href="/projects" scroll={false}>
-                <a>Explore Works</a>
+              <Link href="/about" scroll={false}>
+                <a>About Me</a>
               </Link>
             </Button>
-            <Button variant={"link"} colorScheme={"blue"} size={"sm"}>
+            <Button
+              // colorScheme={"blue"}
+              bg={"transparent"}
+              color={"teal.400"}
+              rounded={"full"}
+              border={"1px solid"}
+              borderColor={"teal.400"}
+              px={6}
+              size="lg"
+              transition={"all .4s ease"}
+              _hover={{ bg: "teal.400", color: "white" }}
+            >
+              <Link href="/projects" scroll={false}>
+                <a>explore projects</a>
+              </Link>
+            </Button>
+            {/* <Button variant={"link"} colorScheme={"blue"} size={"sm"}>
               <Link href="/about" scroll={false}>
                 <a>Learn more about me</a>
               </Link>
-            </Button>
+            </Button> */}
           </Stack>
         </Stack>
       </Container>

@@ -94,10 +94,12 @@ const WorkExpDetails = (props) => {
           {props.children}
         </chakra.dd>
 
-        <Stack mt={2} isInline wrap="wrap" align="center" spacing={4}>
+        <Flex mt={2} flexWrap="wrap" alignItems="center">
           {props?.skills?.map((skill) => (
             <Tag
-              my={2}
+              // marginTop={"0.5rem"}
+              marginRight={"0.5rem"}
+              marginBottom={"0.5rem"}
               key={skill}
               variant="solid"
               colorScheme={"teal"}
@@ -106,7 +108,7 @@ const WorkExpDetails = (props) => {
               {skill}
             </Tag>
           ))}
-        </Stack>
+        </Flex>
       </Box>
     </Flex>
   );
