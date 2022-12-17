@@ -56,7 +56,7 @@ export default function Footer() {
         <Box width={"8rem"}>
           <Link scroll={false} href="/">
             <Text
-              fontFamily="SuisseIntl"
+              fontFamily="SuisseIntlBold"
               fontWeight="bold"
               fontSize={"2xl"}
               display={"flex"}
@@ -75,7 +75,7 @@ export default function Footer() {
             </Text>
           </Link>
         </Box>
-        <Text fontSize="sm" fontFamily="SuisseIntl">
+        <Text fontSize="sm" fontFamily="SuisseIntlRegular">
           &copy; {new Date().getFullYear()} &nbsp; Batuhan Faik
         </Text>
         <Stack direction={"row"} spacing={6}>

@@ -22,7 +22,7 @@ const CTA = () => {
           <Heading
             size="3xl"
             fontWeight="extrabold"
-            fontFamily="SuisseIntl"
+            fontFamily="SuisseIntlBlack"
             letterSpacing="tight"
           >
             Ready to Grow?

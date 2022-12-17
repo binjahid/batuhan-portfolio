@@ -36,7 +36,7 @@ export default function Hero() {
               lg: "8xl",
             }}
             lineHeight={"120%"}
-            fontFamily="SuisseIntl"
+            fontFamily="SuisseIntlSemiBold"
           >
             <motion.span
               initial={{ opacity: 0 }}

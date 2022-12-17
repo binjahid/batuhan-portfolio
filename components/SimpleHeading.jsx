@@ -6,7 +6,7 @@ const SimpleHeading = ({ title }) => {
         size="xl"
         textTransform="uppercase"
         fontWeight="light"
-        fontFamily="SuisseIntl"
+        fontFamily="SuisseIntlRegular"
         textAlign="center"
       >
         {title}

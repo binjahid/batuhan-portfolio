@@ -5,7 +5,7 @@ const HeadingBB = ({ text, coloredText }) => {
         fontSize={{ base: "2xl", md: "5xl" }}
         color={useColorModeValue("black", "white")}
         fontWeight="bold"
-        fontFamily="SuisseIntl"
+        fontFamily="SuisseIntlBold"
         textAlign="center"
         mb={8}
         _after={{

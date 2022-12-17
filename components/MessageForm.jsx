@@ -164,7 +164,7 @@ const MessageForm = () => {
           </FormControl>
         </Stack>
         <Button
-          fontFamily={"SuisseIntl"}
+          fontFamily={"SuisseIntlRegular"}
           mt={8}
           w={"full"}
           bgGradient="linear(to-r, red.400, pink.400)"

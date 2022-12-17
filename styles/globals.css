@@ -3,28 +3,28 @@
 
 
 @font-face {
-    font-family: "SuisseIntl";
+    font-family: "SuisseIntlMedium";
     src: url(../assets/fonts/SuisseIntl-Medium.ttf);
 }
 
 @font-face {
-    font-family: "SuisseIntl";
+    font-family: "SuisseIntlBold";
     src: url(../assets/fonts/SuisseIntl-Bold.ttf);
 }
 
 @font-face {
-    font-family: "SuisseIntl";
+    font-family: "SuisseIntlBlack";
     src: url(../assets/fonts/SuisseIntl-Black.ttf);
 }
 
 @font-face {
-    font-family: "SuisseIntl";
+    font-family: "SuisseIntlSemiBold";
     src: url(../assets/fonts/SuisseIntl-SemiBold.ttf);
 }
 
 @font-face {
-    font-family: "SuisseIntl";
-    src: url(../assets/fonts/SuisseIntl-Medium.ttf);
+    font-family: "SuisseIntlRegular";
+    src: url(../assets/fonts/SuisseIntl-Regular.ttf);
 }
 
 :root {

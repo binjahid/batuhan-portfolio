@@ -25,7 +25,7 @@ const ProjectsCTA = () => {
           <Heading
             size="3xl"
             fontWeight="extrabold"
-            fontFamily="SuisseIntl"
+            fontFamily="SuisseIntlBlack"
             letterSpacing="tight"
           >
             Want to see more?

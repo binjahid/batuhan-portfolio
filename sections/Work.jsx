@@ -24,7 +24,7 @@ export default function Work({ works }) {
                 fontWeight="bold"
                 letterSpacing="tight"
                 color={useColorModeValue("gray.900")}
-                fontFamily="SuisseIntl"
+                fontFamily="SuisseIntlBold"
               >
                 I’ve worked at some start-up and Freelancer Platforms
               </chakra.p>

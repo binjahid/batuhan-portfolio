@@ -29,7 +29,7 @@ export default function ProfileCard({ client }) {
             pos={"relative"}
             title={client.name}
           />
-          <Heading fontSize={"2xl"} fontFamily={"SuisseIntl"}>
+          <Heading fontSize={"2xl"} fontFamily={"SuisseIntlRegular"}>
             {client.name}
           </Heading>
           <Text fontWeight={600} color={"gray.500"} mb={4}>

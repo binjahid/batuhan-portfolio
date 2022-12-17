@@ -25,7 +25,7 @@ const WorkExpDetails = (props) => {
         base: "column",
         md: "row",
       }}
-      fontFamily="SuisseIntl"
+      fontFamily="SuisseIntlRegular"
     >
       <Flex>
         <Flex
@@ -69,7 +69,7 @@ const WorkExpDetails = (props) => {
         </Flex>
         <Text
           fontSize="sm"
-          fontFamily="SuisseIntl"
+          fontFamily="SuisseIntlRegular"
           color={useColorModeValue("gray.500")}
           lineHeight="100%"
         >
@@ -78,7 +78,7 @@ const WorkExpDetails = (props) => {
         <Text
           pt={"0.5rem"}
           fontSize="sm"
-          fontFamily="SuisseIntl"
+          fontFamily="SuisseIntlRegular"
           color={useColorModeValue("gray.500")}
           lineHeight="100%"
         >
@@ -88,7 +88,7 @@ const WorkExpDetails = (props) => {
           mt={2}
           color={useColorModeValue("gray.500", "gray.400")}
           lineHeight="1.4"
-          fontFamily="SuisseIntl"
+          fontFamily="SuisseIntlRegular"
           fontSize="sm"
         >
           {props.children}

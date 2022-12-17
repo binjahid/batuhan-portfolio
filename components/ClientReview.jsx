@@ -47,7 +47,7 @@ const ClientReview = ({ review, client }) => {
           lineHeight={1.5}
           mb={4}
           textAlign="center"
-          fontFamily={"SuisseIntl"}
+          fontFamily={"SuisseIntlRegular"}
           bgGradient="linear(to-r, blue.400, teal.200)"
           bgClip="text"
         >
@@ -59,7 +59,7 @@ const ClientReview = ({ review, client }) => {
             fontSize={{ base: "xl" }}
             textAlign={"center"}
             maxW={"3xl"}
-            fontFamily="SuisseIntl"
+            fontFamily="SuisseIntlRegular"
           >
             {review.review}
           </Text>
@@ -73,7 +73,7 @@ const ClientReview = ({ review, client }) => {
               size={"lg"}
             />
 
-            <Text fontWeight={600} fontFamily="SuisseIntl">
+            <Text fontWeight={600} fontFamily="SuisseIntlSemiBold">
               {client.name}
             </Text>
             <Text

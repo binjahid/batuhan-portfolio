@@ -149,8 +149,11 @@ export const theme = extendTheme({
     },
     fontFamily: {
       raleway: '"Raleway", sans-serif',
-      SuisseIntl: '"SuisseIntl", sans-serif',
-      SuisseIntl: '"SuisseIntl", sans-serif',
+      SuisseIntlRegular: "SuisseIntlRegular",
+      SuisseIntlMedium: "SuisseIntlMedium",
+      SuisseIntlSemiBold: "SuisseIntlSemiBold",
+      SuisseIntlBold: "SuisseIntlBold",
+      SuisseIntlBlack: "SuisseIntlBlack",
       openSans: '"Open Sans", sans-serif',
       inter: '"Inter", sans-serif',
     },

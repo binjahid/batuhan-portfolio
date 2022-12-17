@@ -9,7 +9,7 @@ const SingleFact = ({ title, icon, content }) => {
         }}
       >
         <Icon as={icon} />
-        <Text fontWeight="bold" ml={6} mr="auto" fontFamily="SuisseIntl">
+        <Text fontWeight="bold" ml={6} mr="auto" fontFamily="SuisseIntlBold">
           {title}
         </Text>
         <Badge colorScheme="green">{content}</Badge>

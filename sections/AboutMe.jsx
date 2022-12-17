@@ -17,13 +17,13 @@ import { SectionHeading, Skill } from "../components";
 
 export default function About() {
   return (
-    <Container maxW={"7xl"} py={12} as="section" fontFamily="SuisseIntl">
+    <Container maxW={"7xl"} py={12} as="section" fontFamily="SuisseIntlRegular">
       <SimpleGrid columns={{ base: 1, md: 2 }} spacing={10}>
         <Stack spacing={4}>
           <SectionHeading title="About Me" />
           <Heading>Batuhan Faik</Heading>
           <Text
-            fontFamily="SuisseIntl"
+            fontFamily="SuisseIntlRegular"
             color={"gray.500"}
             fontSize={"md"}
             lineHeight={"150%"}
@@ -57,7 +57,7 @@ export default function About() {
               />
             }
           >
-            <Text fontSize="sm" fontFamily="SuisseIntl">
+            <Text fontSize="sm" fontFamily="SuisseIntlRegular">
               Here are a few technologies I’ve been working with recently:
             </Text>
             <SimpleGrid columns={[1, 2]} gap={4}>

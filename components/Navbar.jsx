@@ -78,7 +78,7 @@ export default function Navbar() {
             key={item.id}
             onClick={mobileNav.onClose}
           >
-            <Link scroll={false} fontFamily="SuisseIntl" href={item.url}>
+            <Link scroll={false} fontFamily="SuisseIntlRegular" href={item.url}>
               {item.name}
             </Link>
           </Button>
@@ -118,7 +118,7 @@ export default function Navbar() {
           <Flex align="flex-start">
             <Link href="/" passHref scroll={false}>
               <Text
-                fontFamily="SuisseIntl"
+                fontFamily="SuisseIntlBold"
                 fontWeight="bold"
                 fontSize={"2xl"}
                 display={"flex"}
