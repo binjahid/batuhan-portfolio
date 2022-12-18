@@ -4,27 +4,27 @@
 
 @font-face {
     font-family: "SuisseIntlMedium";
-    src: url(../assets/fonts/SuisseIntl-Medium.ttf);
+    src: url(../assets/fonts/SuisseIntl-Medium.ttf) format("truetype");
 }
 
 @font-face {
     font-family: "SuisseIntlBold";
-    src: url(../assets/fonts/SuisseIntl-Bold.ttf);
+    src: url(../assets/fonts/SuisseIntl-Bold.ttf) format("truetype");
 }
 
 @font-face {
     font-family: "SuisseIntlBlack";
-    src: url(../assets/fonts/SuisseIntl-Black.ttf);
+    src: url(../assets/fonts/SuisseIntl-Black.ttf) format("truetype");
 }
 
 @font-face {
     font-family: "SuisseIntlSemiBold";
-    src: url(../assets/fonts/SuisseIntl-SemiBold.ttf);
+    src: url(../assets/fonts/SuisseIntl-SemiBold.ttf) format("truetype");
 }
 
 @font-face {
     font-family: "SuisseIntlRegular";
-    src: url(../assets/fonts/SuisseIntl-Regular.ttf);
+    src: url(../assets/fonts/SuisseIntl-Regular.ttf) format("truetype");
 }
 
 :root {
